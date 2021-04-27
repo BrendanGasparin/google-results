@@ -1,0 +1,323 @@
+body {
+  font-family: arial, sans-serif;
+  font-size: 14px;
+  color: #222222;
+}
+
+form {
+  width: 40em;
+  margin: 0 auto;
+  width: 100%;
+}
+
+[type=search] {
+  display: block;
+  margin: 0 auto;
+  padding: 13px;
+  padding-left: 50px;
+  width: 100%;
+  background-color: white;
+  border-radius: 2em;
+  border: 1px solid #dddddd;
+}
+
+input:focus {
+  outline: none;
+}
+
+.app-icon {
+  height: 24px;
+  width: 24px;
+  opacity: 0.6;
+}
+
+.black-link {
+  color: #222222;
+  text-decoration: none;
+}
+
+.footer-text {
+  color: #70757a;
+}
+
+.footer-link {
+  text-decoration: none;
+  color: #70757a;
+}
+
+.search-button {
+  border: 0;
+  background-color: #f8f9fa;
+  font-size: 14px;
+  padding: 9px 17px;
+  border-radius: 5px;
+}
+
+.search-button:hover {
+  border: 1px solid #dddddd;
+  padding: 9px 14px;
+}
+
+.signin-button {
+  background-color: #1a73e8;
+  color: white;
+  font-size: 15px;
+  border: 0;
+  padding: 10px 26px;
+  border-radius: 5px;
+}
+
+.small-text {
+  font-size: 13px;
+}
+
+.spyglass-icon {
+  position: absolute;
+  height: 21px;
+  width: 21px;
+  top: 12px;
+  left: 16px;
+  opacity: 0.35;
+}
+
+.mic-icon {
+  position: absolute;
+  height: 24px;
+  width: 24px;
+  top: 10px;
+  right: 16px;
+}
+
+#page-div {
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 100%;
+}
+
+#nav-div {
+  display: flex;
+  height: 60px;
+  flex-shrink: 0;
+  align-items: center;
+}
+
+#logo-div {
+  display: flex;
+  justify-content: center;
+  flex-basis: auto;
+  flex-grow: 18;
+  align-items: flex-end;
+}
+
+#search-div {
+  display: flex;
+  position: relative;
+  padding-top: 25px;
+  justify-content: center;
+  width: 100%;
+  margin: 0 auto;
+}
+
+#searchbar-div {
+	display: flex;
+	position: relative;
+	justify-content: center;
+	width: auto;
+	max-width: 584px;
+	margin: 0 auto;
+}
+
+#search-buttons {
+  display: flex;
+  padding-top: 30px;
+  justify-content: center;
+}
+
+#lucky-button {
+  margin-left: 12px;
+}
+
+#blank-div {
+  display: flex;
+  flex-basis: 34.6vh;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+#footer-div {
+  display: flex;
+  flex-direction: column;
+  height: 94px;
+  flex-shrink: 0;
+  background-color: #eee;
+}
+
+#about-div {
+  padding-left: 26px;
+}
+
+#store-div {
+  padding-left: 20px;
+}
+
+#navbar-right-div {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  width: 100%;
+}
+
+#images-div {
+  padding-right: 27px;
+}
+
+#gmail-div {
+  padding-right: 15px;
+}
+
+#apps-div {
+  padding-top: 2px;
+  padding-right: 20px;
+}
+
+#signin-div {
+  padding-right: 18px;
+}
+
+#location-div {
+  display: flex;
+  align-items: center;
+  height: 47px;
+  padding-left: 30px;
+  font-size: 15px;
+  border-bottom: 1px solid #dadce0;
+}
+
+#footer-links {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 47px;
+  width: 100%;
+}
+
+#footer-links1 {
+  display: flex;
+  align-items: center;
+}
+
+#footer-links2 {
+  display:flex;
+  align-items: center;
+}
+
+#footer-advertising {
+  padding-left: 35px;
+}
+
+#footer-business {
+  padding-left: 30px;
+}
+
+#footer-search {
+  padding-left: 30px;
+}
+
+#footer-privacy {
+  padding-right: 30px;
+}
+
+#footer-terms {
+  padding-right: 30px;
+}
+
+#footer-settings {
+  padding-right: 35px;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  #blank-div {
+    flex-basis: 29.4vh;
+  }
+
+  #searchbar-div {
+    margin: 0 1.5em;
+  }
+
+  /* footer layout on small screens */
+  #footer-div {
+    height: 141px;
+  }
+
+  #footer-links {
+    flex-direction: column;
+    height: 94px;
+  }
+
+  #location-div {
+    height: 47px;
+  }
+
+  #footer-links1 {
+    height: 47px;
+  }
+
+  #footer-links2 {
+    height: 47px;
+  }
+
+  #footer-advertising {
+    padding-left: 0;
+  }
+
+  #footer-business {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #footer-search {
+    padding-left: 0;
+  }
+
+  #footer-privacy {
+    padding-right: 0;
+  }
+
+  #footer-terms {
+    padding-left: 30px;
+    padding-right: 30px;
+  }
+
+  #footer-settings {
+    padding-right: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+	
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+	
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+	
+}
+
+@media (max-width: 1200px) {
+  #footer-links {
+    display: flex;
+    justify-content: space-around;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
